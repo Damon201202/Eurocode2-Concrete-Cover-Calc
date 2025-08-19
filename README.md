@@ -8,16 +8,7 @@ Easily calculate the required concrete cover for reinforced concrete structures 
 - 🎯 Fast and precise calculations  
 - 🖥️ Intuitive web interface  
 - 🔓 Free and unlimited access  
-- 📄 Results aligned with regulatory requirements  
-
-## 📦 Installation
-
-This is a web-based tool. No installation required.  
-If you're contributing or running locally:
-
-```bash
-git clone https://github.com/your-username/ec2-concrete-cover.git
-cd ec2-concrete-cover
+- 📄 Results aligned with regulatory requirements
 
 📘 How to Use
 Follow the instructions below to correctly fill in each field and obtain accurate results for your reinforced concrete project.
@@ -40,4 +31,15 @@ For each field, refer to the "Notes" column in the calculator for guidance to en
 
 If you have questions or uncertainties, visit our dedicated page on concrete cover for detailed information and calculation examples.
 
-By following these steps, you’ll be able to use the calculator effectively and ensure your project complies with Eurocode 2 standards.
+By following these steps, you’ll be able to use the calculator effectively and ensure your project complies with Eurocode 2 standards. 
+
+## 📦 Installation
+
+This is a web-based tool. No installation required.  
+If you're contributing or running locally:
+
+```bash
+git clone https://github.com/your-username/ec2-concrete-cover.git
+cd ec2-concrete-cover
+
+
