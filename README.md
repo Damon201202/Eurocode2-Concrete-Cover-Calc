@@ -1,6 +1,6 @@
-# 🧱 Eurocode 2 Concrete Cover Calculator
+# 🧱 Eurocode 2 (NF EN 1992-1-1 / EC2) Concrete Cover Calculator
 
-Easily calculate the required concrete cover for reinforced concrete structures in accordance with Eurocode 2. This free online tool provides fast, accurate, and regulation-compliant results for engineers, architects, and builders.
+Easily calculate the required concrete cover for reinforced concrete structures in accordance with Eurocode 2 (NF EN 1992-1-1 / EC2). This free online tool provides fast, accurate, and regulation-compliant results for engineers, architects, and builders.
 
 ## 🚀 Features
 
