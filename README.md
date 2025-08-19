@@ -35,7 +35,11 @@ By following these steps, you’ll be able to use the calculator effectively and
 
 ## 📦 Installation
 
-This is a web-based tool. No installation required.  
+This is a web-based tool. No installation required. 
+
+This tool is available for direct use on our website: 
+https://beton-guide.com/calcul/calcul-enrobage-beton-selon-eurocode-2-outil-en-ligne-gratuit.html
+
 If you're contributing or running locally:
 
 ```bash
