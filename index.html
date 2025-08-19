@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Concrete Cover Calculation</title>
+  <link rel="stylesheet" href="styles.css"> <!-- ton fichier CSS -->
+</head>
+<body>
+
+<section>
+
+<div class="h2">
+  <div class="h2-title">
+    <h2>
+      <span class="h2-title_summary">Concrete Cover Calculation:</span>
+      <span class="h2-title_text">Project Parameters</span>
+    </h2>
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns">
+    <p class="calcul-four_inscriptions">Designation</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_inscriptions">Symbol / Formula</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_3">
+    <p class="calcul-four_inscriptions">Value</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_inscriptions">Unit</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_5">
+    <p class="calcul-four_inscriptions">Remarks</p>
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Service life:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_symb">
+    <p class="calcul-four_symb">T</p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select_duree">
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="25">25</option>
+      <option value="50" selected>50</option>
+      <option value="100">100</option>
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">Years</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text calcul-four_duree">
+    Buildings and other common structures.
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Exposure class:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_symb">
+    <p class="calcul-four_symb">X</p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select-classe_exposition">
+      <option value="XO">XO</option>
+      <option value="XC1" selected>XC1</option>
+      <option value="XC2">XC2</option>
+      <option value="XC3">XC3</option>
+      <option value="XC4">XC4</option>
+      <option value="XD1">XD1</option>
+      <option value="XD2">XD2</option>
+      <option value="XD3">XD3</option>
+      <option value="XS1">XS1</option>
+      <option value="XS2">XS2</option>
+      <option value="XS3">XS3</option>
+      <option value="XF1">XF1</option>
+      <option value="XF2">XF2</option>
+      <option value="XF3">XF3</option>
+      <option value="XF4">XF4</option>
+      <option value="XA1">XA1</option>
+      <option value="XA2">XA2</option>
+      <option value="XA3">XA3</option>
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">-</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text calcul-four_exposition">
+    
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Concrete strength class:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_symb">
+    <p class="calcul-four_symb">C</p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select-classe_beton">
+      <option value="12-15">C12/15</option>
+      <option value="16-20">C16/20</option>
+      <option value="20-25">C20/25</option>
+      <option value="25-30" selected>C25-30</option>
+      <option value="30-37">C30/37</option>
+      <option value="35-45">C35/45</option>
+      <option value="40-50">C40/50</option>
+      <option value="45-55">C45/55</option>
+      <option value="50-60">C50/60</option>
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">MPa</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    
+  </div>
+</div>
+
+<div class="alert alert-element-classe_beton"></div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">CEM I-based concrete without fly ash:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_symb">
+    <p class="calcul-four_symb">CEM I (CV)</p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select-cem1">
+      <option value="1" selected>NO</option>
+      <option value="2">YES</option>
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit calcul-four_unit-cem1">-</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Compact concrete cover:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_symb">
+    <p class="calcul-four_symb">c<sub>com</sub></p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select-enr_compact">
+      <option value="1" selected>NO</option>
+      <option value="2">YES</option>
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit calcul-four_unit-enr_compact">-</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Structural class:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_symb">S</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_result calcul-four-beton-classe_str">
+    S4
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">-</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Minimum concrete cover for good bond:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_symb">c<sub>min,b</sub></p>
+  </div>
+  <div class="calcul-four_columns calcul-four-select">
+    <select class="calcul-four-select calcul-four-select-c_min_b">
+      <option value="6">6</option>
+      <option value="8">8</option>
+      <option value="10" selected>10</option>
+      <option value="12">12</option>
+      <option value="14">14</option> 
+      <option value="16">16</option>
+      <option value="20">20</option> 
+      <option value="25">25</option> 
+    </select>
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">mm</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    <p>c<sub>min,b</sub> = Ø of the bar or Ø of the largest aggregate.</p>
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Minimum cover for environmental conditions:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_symb">c<sub>min,dur</sub></p>
+  </div>
+  <div class="calcul-four_columns calcul-four_result calcul-enrobage_min_dur">
+    15
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">mm</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Minimum cover:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_symb">
+      c<sub>min</sub> = max [c<sub>min,b</sub> ; c<sub>min,dur</sub> ; 10&nbsp;mm]
+    </p>
+  </div>
+  <div class="calcul-four_columns calcul-four_result calcul-enrobage_min">
+    15
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">mm</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    <!-- No additional note -->
+  </div>
+</div>
+
+<div class="calcul-four">
+  <div class="calcul-four_columns calcul-four_1">
+    <p class="calcul-four_text">Nominal cover to be provided:</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_2">
+    <p class="calcul-four_symb">
+      c<sub>nom</sub> = c<sub>min</sub> + Δc<sub>dev</sub>
+    </p>
+  </div>
+  <div class="calcul-four_columns calcul-four_result calcul-enrobage_nom">
+    2.5
+  </div>
+  <div class="calcul-four_columns calcul-four_4">
+    <p class="calcul-four_unit">cm</p>
+  </div>
+  <div class="calcul-four_columns calcul-four_text">
+    c<sub>nom</sub> – cover indicated in the plans,<br>Δc<sub>dev</sub> = 10&nbsp;mm.
+  </div>
+</div>
+
+	
+</section>
+
+<script src="concrete-cover.js" defer></script>
+
+</body>
+</html>

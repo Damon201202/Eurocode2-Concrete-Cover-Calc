@@ -1,0 +1,74 @@
+/* General section title */
+.h2-title {
+  margin: 1rem 0;
+  border-bottom: 2px solid #333;
+}
+
+.h2-title_summary {
+  font-weight: bold;
+  color: #444;
+}
+
+.h2-title_text {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+/* Row container */
+.calcul-four {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #ccc;
+  padding: 0.4rem 0;
+  align-items: center;
+}
+
+/* Each column cell */
+.calcul-four_columns {
+  flex: 1;
+  padding: 0.3rem 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Narrow columns for symbols/units */
+.calcul-four_symb,
+.calcul-four_unit {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Dropdown styling */
+.calcul-four-select select,
+.calcul-four-select {
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+}
+
+/* Header row */
+.calcul-four_inscriptions {
+  font-weight: bold;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #999;
+}
+
+/* Remarks / text column */
+.calcul-four_text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Optional: alternate row background for readability */
+.calcul-four:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Links inside rows */
+.calcul-four_text a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.calcul-four_text a:hover {
+  text-decoration: underline;
+}
