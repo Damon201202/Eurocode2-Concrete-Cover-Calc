@@ -1,6 +1,9 @@
-# 🧱 Eurocode 2 (NF EN 1992-1-1 / EC2) Concrete Cover Calculator
+# 🧱 Eurocode 2 (NF EN 1992-1-1 / EC2) – Concrete Cover Calculator
 
-Easily calculate the required concrete cover for reinforced concrete structures in accordance with Eurocode 2 (NF EN 1992-1-1 / EC2). This free online tool provides fast, accurate, and regulation-compliant results for engineers, architects, and builders.
+Easily calculate the required concrete cover for reinforced concrete structures in accordance with **Eurocode 2 (NF EN 1992-1-1 / EC2)**.  
+This open-source tool provides fast, accurate, and regulation-compliant results for engineers, architects, and builders.
+
+---
 
 ## 🚀 Features
 
@@ -8,42 +11,58 @@ Easily calculate the required concrete cover for reinforced concrete structures 
 - 🎯 Fast and precise calculations  
 - 🖥️ Intuitive web interface  
 - 🔓 Free and unlimited access  
-- 📄 Results aligned with regulatory requirements
+- 📄 Results aligned with regulatory requirements  
 
-📘 How to Use
-Follow the instructions below to correctly fill in each field and obtain accurate results for your reinforced concrete project.
+---
 
-In each section of the calculator, you’ll need to enter specific project data:
+## 📘 How to Use
 
-Service Life: Enter the expected duration in years.
+To calculate the required cover, simply fill in the following project data:
 
-Exposure Class: Select the appropriate class (e.g., XC1, XC2).
+- **Service Life** → Expected duration of the structure (in years).  
+- **Exposure Class** → Environmental conditions (e.g., `XC1`, `XC2`, `XD1`, `XS3`, `XF1`, `XA2`).  
+- **Concrete Strength Class** → Choose strength class (e.g., `C25/30`, `C30/37`).  
+- **Bar Diameter** → Diameter of the largest longitudinal rebar.  
+- **Cement Type** → Indicate if the concrete uses **CEM I without fly ash (FA)**.  
+- **Compact Cover Option** → Applies when good compaction can be guaranteed  
+  (e.g., slabs or ribbed floors cast horizontally on industrial/metal formwork).  
 
-Concrete Strength Class: Choose the class (e.g., C25/30, C30/37).
+👉 For each parameter, refer to the **Notes** column inside the calculator for detailed guidance.  
+These inputs are essential for calculating both **minimum** (`c_min`) and **nominal** (`c_nom`) cover values in compliance with Eurocode 2.
 
-Bar Diameter: Specify the diameter of the largest longitudinal rebar.
+For further explanations and examples, check our detailed guide on [Concrete Cover](https://beton-guide.com/calcul/calcul-enrobage-beton-selon-eurocode-2-outil-en-ligne-gratuit.html).
 
-Cement Type: Indicate whether the concrete is made with CEM I cement, without fly ash (FA).
+---
 
-Compact Cover Option: Applies to elements where good compaction of the concrete cover can be guaranteed (e.g., flat elements like slabs and ribbed floors cast horizontally on industrial or metal formwork).
+## 📦 Installation & Usage
 
-For each field, refer to the "Notes" column in the calculator for guidance to ensure your input is correct and compliant with Eurocode 2 requirements. These inputs are essential for calculating both the minimum and nominal concrete cover values.
+This is a **web-based tool**. No installation required.  
 
-If you have questions or uncertainties, visit our dedicated page on concrete cover for detailed information and calculation examples.
+Use it directly online:  
+👉 [Concrete Cover Calculator](https://beton-guide.com/calcul/calcul-enrobage-beton-selon-eurocode-2-outil-en-ligne-gratuit.html)
 
-By following these steps, you’ll be able to use the calculator effectively and ensure your project complies with Eurocode 2 standards. 
+🔗 Standards & References
 
-## 📦 Installation
+Eurocode 2: NF EN 1992-1-1 (EC2) – Design of Concrete Structures
 
-This is a web-based tool. No installation required. 
+Related National Annexes depending on country of use
 
-This tool is available for direct use on our website: 
-https://beton-guide.com/calcul/calcul-enrobage-beton-selon-eurocode-2-outil-en-ligne-gratuit.html
+📄 License
 
-If you're contributing or running locally:
+This project is open source under the MIT License.
+
+👤 Author & Maintainer
+
+Dimitry Lyubichev
+Civil Engineer (Building Engineering Institute, Kiev – MSc equivalent)
+Experience: construction worker, design office technician, RC draftsman, concrete technologist.
+Creator of [beton-guide.com](https://beton-guide.com)
+
+If you want to run it locally or contribute:
 
 ```bash
+# Clone repository
 git clone https://github.com/your-username/ec2-concrete-cover.git
 cd ec2-concrete-cover
 
-
+# Open index.html in your browser
