@@ -1,6 +1,7 @@
-// JavaScript: concrete cover calculation
-// Copyright © 2025 Dimitry Lyubichev / beton-guide.com.
-// All rights reserved. Unauthorized reproduction or use is strictly prohibited.
+// Copyright © 2025 Dimitry Lyubichev / beton-guide.com
+// Licensed under the MIT License.
+// You may freely use, modify, and distribute this code under the terms of the MIT License.
+// See the LICENSE file in the project root for details.
 
 document.addEventListener('DOMContentLoaded', () => {
   // Attach listeners (guarded) and initialize once
@@ -205,3 +206,4 @@ function calculEnrobage() {
   const cNomEl = document.querySelector('.calcul-enrobage_nom');
   if (cNomEl) cNomEl.innerHTML = Number.isFinite(cNom) ? cNom.toFixed(1) : '';
 }
+
